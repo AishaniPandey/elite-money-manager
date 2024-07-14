@@ -1,0 +1,40 @@
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Login'
+            font_size: 30
+        TextInput:
+            id: username_input
+            hint_text: 'Username'
+            multiline: False
+        TextInput:
+            id: password_input
+            hint_text: 'Password'
+            multiline: False
+            password: True
+        Button:
+            text: 'Login'
+            on_press: root.validate_credentials(root)
+        Button:
+            text: 'Register'
+            on_press: root.switch_to_registration(root)
+
+<RegistrationScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Registration'
+            font_size: 30
+        TextInput:
+            id: new_username_input
+            hint_text: 'Enter Username'
+            multiline: False
+        TextInput:
+            id: new_password_input
+            hint_text: 'Enter Password'
+            multiline: False
+            password: True
+        Button:
+            text: 'Submit'
+            on_press: root.register_user(root)

@@ -1,0 +1,2 @@
+source "kivy-PaymentLogger\venv\bin\activate"
+python -m pip install "kivy[base]" kivy_examples

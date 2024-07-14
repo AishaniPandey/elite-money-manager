@@ -1,0 +1,42 @@
+[
+    {
+        "p_type": "Credit",
+        "label": "Restaurant",
+        "amount": 4304.48,
+        "t_date": 1715538600,
+        "t_id": "664365259675",
+        "accnt_trace": "AT767895",
+        "merch_trace": "MT548345",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Supermarket",
+        "amount": 3618.41,
+        "t_date": 1710959400,
+        "t_id": "148405682956",
+        "accnt_trace": "AT810757",
+        "merch_trace": "MT951499",
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Loan Payment",
+        "amount": 2401.01,
+        "t_date": 1727461800,
+        "t_id": "679649226880",
+        "accnt_trace": "AT935265",
+        "merch_trace": "MT302638",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Pharmacy",
+        "amount": 2734.32,
+        "t_date": 1708540200,
+        "t_id": "407570703124",
+        "accnt_trace": "AT306299",
+        "merch_trace": "MT845389",
+        "category": "DEBTS"
+    }
+]

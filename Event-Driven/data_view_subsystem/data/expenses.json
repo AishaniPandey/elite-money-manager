@@ -1,0 +1,32 @@
+[
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000.0,
+        "t_date": 1713792876,  
+        "t_id": "TXN10001",
+        "accnt_trace": "Account1",
+        "merch_trace": "Employer",
+        "category": "Income"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Rent",
+        "amount": 1500.0,
+        "t_date": 1709811420,  
+        "t_id": "TXN10002",
+        "accnt_trace": "Account1",
+        "merch_trace": "Landlord",
+        "category": "Expense"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Groceries",
+        "amount": 300.0,
+        "t_date": 1715694540,  
+        "t_id": "TXN10003",
+        "accnt_trace": "Account1",
+        "merch_trace": "Supermarket",
+        "category": "Expense"
+    }
+]

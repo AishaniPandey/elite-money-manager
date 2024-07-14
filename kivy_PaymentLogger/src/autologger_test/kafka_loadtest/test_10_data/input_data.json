@@ -1,0 +1,102 @@
+[
+    {
+        "p_type": "Debit",
+        "label": "Pharmacy",
+        "amount": 336.94,
+        "t_date": 1734546600,
+        "t_id": "920857732897",
+        "accnt_trace": "AT626210",
+        "merch_trace": "MT426251",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Supermarket",
+        "amount": 1728.25,
+        "t_date": 1735497000,
+        "t_id": "431007480736",
+        "accnt_trace": "AT197402",
+        "merch_trace": "MT937068",
+        "category": "DEBTS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Pharmacy",
+        "amount": 149.13,
+        "t_date": 1734805800,
+        "t_id": "218721275819",
+        "accnt_trace": "AT884245",
+        "merch_trace": "MT827878",
+        "category": "MISC"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Apparel",
+        "amount": 183.02,
+        "t_date": 1718994600,
+        "t_id": "332353604053",
+        "accnt_trace": "AT164076",
+        "merch_trace": "MT518275",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Utility Bill",
+        "amount": 3488.7,
+        "t_date": 1731954600,
+        "t_id": "351197968188",
+        "accnt_trace": "AT129685",
+        "merch_trace": "MT436268",
+        "category": "MEDICAL"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Apparel",
+        "amount": 1107.95,
+        "t_date": 1720204200,
+        "t_id": "290262583379",
+        "accnt_trace": "AT488900",
+        "merch_trace": "MT264630",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Electronics",
+        "amount": 4249.72,
+        "t_date": 1719340200,
+        "t_id": "616713285348",
+        "accnt_trace": "AT627754",
+        "merch_trace": "MT457851",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Utility Bill",
+        "amount": 3817.52,
+        "t_date": 1704565800,
+        "t_id": "493236822962",
+        "accnt_trace": "AT934662",
+        "merch_trace": "MT950580",
+        "category": "MISC"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Online Service",
+        "amount": 4072.31,
+        "t_date": 1721932200,
+        "t_id": "136102530460",
+        "accnt_trace": "AT191040",
+        "merch_trace": "MT294381",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Utility Bill",
+        "amount": 3111.55,
+        "t_date": 1714847400,
+        "t_id": "465823098220",
+        "accnt_trace": "AT921179",
+        "merch_trace": "MT295978",
+        "category": "TECH"
+    }
+]

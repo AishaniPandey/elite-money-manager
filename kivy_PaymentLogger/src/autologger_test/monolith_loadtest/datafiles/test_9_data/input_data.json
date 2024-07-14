@@ -1,0 +1,92 @@
+[
+    {
+        "p_type": "Credit",
+        "label": "Loan Payment",
+        "amount": 4498.14,
+        "t_date": 1735065000,
+        "t_id": "155106094013",
+        "accnt_trace": "AT589508",
+        "merch_trace": "MT606237",
+        "category": "DEBTS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Restaurant",
+        "amount": 2676.15,
+        "t_date": 1724351400,
+        "t_id": "729755977388",
+        "accnt_trace": "AT533370",
+        "merch_trace": "MT427171",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Electronics",
+        "amount": 2659.7,
+        "t_date": 1732905000,
+        "t_id": "887804604842",
+        "accnt_trace": "AT990978",
+        "merch_trace": "MT688728",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Restaurant",
+        "amount": 2042.99,
+        "t_date": 1712341800,
+        "t_id": "841607218010",
+        "accnt_trace": "AT440798",
+        "merch_trace": "MT309889",
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Apparel",
+        "amount": 3625.91,
+        "t_date": 1730485800,
+        "t_id": "306681342907",
+        "accnt_trace": "AT186715",
+        "merch_trace": "MT600441",
+        "category": "DEBTS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Pharmacy",
+        "amount": 1618.52,
+        "t_date": 1713119400,
+        "t_id": "513839344669",
+        "accnt_trace": "AT856643",
+        "merch_trace": "MT552138",
+        "category": "MISC"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Electronics",
+        "amount": 4103.66,
+        "t_date": 1730485800,
+        "t_id": "371875254596",
+        "accnt_trace": "AT692320",
+        "merch_trace": "MT981738",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Pharmacy",
+        "amount": 2951.27,
+        "t_date": 1715193000,
+        "t_id": "315494913051",
+        "accnt_trace": "AT438770",
+        "merch_trace": "MT463162",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Loan Payment",
+        "amount": 2439.91,
+        "t_date": 1729362600,
+        "t_id": "671532175054",
+        "accnt_trace": "AT199824",
+        "merch_trace": "MT183690",
+        "category": "LOGISTICS"
+    }
+]

@@ -1,0 +1,140 @@
+## src/paymentforms.kv
+# @Importing the required modules
+# @Author: @Grimoors
+# @Date: 2022-04-20
+# @Last Modified by: @Grimoors
+# @Last Modified time: 2022-04-22 16:58 IST
+# @Title: Payment Logger App Frontend
+# @Description: This file contains the frontend code for the Payment Logger App
+
+
+
+
+<SplashScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Welcome to the Payment Logger App'
+            font_size: '24sp'
+        Button:
+            text: 'Go to Payment Logger'
+            size_hint: None, None
+            size: 200, 50
+            on_press: app.root.current = 'payment_logger'
+
+<PaymentLoggerScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        # Label:
+        #     text: 'Log a Transaction'
+        #     size_hint_y: None
+        #     height: '48dp'
+        # TextInput:
+        #     id: p_type
+        #     hint_text: 'Payment Type (Credit/Debit)'
+        # TextInput:
+        #     id: label
+        #     hint_text: 'Payment Label'
+        # TextInput:
+        #     id: amount
+        #     hint_text: 'Amount'
+        # TextInput:
+        #     id: t_date
+        #     hint_text: 'Transaction Date'
+        # TextInput:
+        #     id: t_id
+        #     hint_text: 'Transaction ID'
+        Button:
+            text: 'Manually Log Transaction'
+            on_press: app.root.current = 'manually_log_payment'
+        Button:
+            text: 'Auto Log Transactions'
+            on_press: app.root.current = 'auto_log_payment'
+
+<ManuallyLogPaymentScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        Label:
+            text: 'Log a Transaction'
+            size_hint_y: None
+            height: '48dp'
+        Spinner:
+            id: p_type
+            text: 'Select Payment Type'
+            values: ['Credit', 'Debit']
+            size_hint: None, None
+            size: 200, 44
+            pos_hint: {'center_x': 0.5}
+        TextInput:
+            id: label
+            hint_text: 'Payment Label'
+        TextInput:
+            id: amount
+            hint_text: 'Amount'
+        BoxLayout:
+            orientation: 'horizontal'
+            Label:
+                text: 'Transaction Time'
+                size_hint_y: None
+                height: '48dp'
+            Spinner:
+                id: day
+                text: 'DD'
+                values: [str(i) for i in range(1, 32)]
+            Spinner:
+                id: month
+                text: 'MM'
+                values: [str(i) for i in range(1, 13)]
+            Spinner:
+                id: year
+                text: 'YYYY'
+                values: [str(i) for i in range(2020, 2031)]
+            Spinner:
+                id: hour
+                text: 'Hr'
+                values: [str(i) for i in range(0, 24)]
+            Spinner:
+                id: minute
+                text: 'Min'
+                values: [str(i) for i in range(0, 60)]
+            Button:
+                text: 'Now'
+                on_press: root.set_current_time()
+        TextInput:
+            id: t_id
+            hint_text: 'Transaction ID (12 digit UPI Reference ID)'
+        TextInput:
+            id: accnt_trace
+            hint_text: 'Account Trace (Optional)'
+        TextInput:
+            id: merch_trace
+            hint_text: 'Merchant Trace (Optional)'
+        TextInput:
+            id: category
+            hint_text: 'Category (Optional)'
+        Button:
+            text: 'Log Transaction'
+            # on_press: root.log_payment(p_type.text, label.text, amount.text, root.get_unix_time(day.text, month.text, year.text, hour.text, minute.text), t_id.text)
+            on_press: root.log_payment(p_type.text, label.text, amount.text, "replace_with_actual_t_date_if_needed", root.get_unix_time(day.text, month.text, year.text, hour.text, minute.text), t_id.text, accnt_trace.text, merch_trace.text, category.text)
+
+
+
+<AutoLogPaymentScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: '10dp'
+        spacing: '10dp'
+        Label:
+            text: 'Log a Transaction'
+            size_hint_y: None
+            height: '48dp'
+        TextInput:
+            id: transaction_file_path
+            hint_text: 'Path to Json File of Transactions'
+        Button:
+            text: 'Log Transaction(s)'
+            on_press: root.auto_log_payment(transaction_file_path.text)

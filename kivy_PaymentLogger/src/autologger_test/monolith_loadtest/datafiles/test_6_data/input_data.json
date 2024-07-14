@@ -1,0 +1,62 @@
+[
+    {
+        "p_type": "Debit",
+        "label": "Electronics",
+        "amount": 812.58,
+        "t_date": 1734201000,
+        "t_id": "728400908758",
+        "accnt_trace": "AT187628",
+        "merch_trace": "MT766239",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Loan Payment",
+        "amount": 1457.34,
+        "t_date": 1717525800,
+        "t_id": "443199208397",
+        "accnt_trace": "AT973626",
+        "merch_trace": "MT563989",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Loan Payment",
+        "amount": 1193.1,
+        "t_date": 1732473000,
+        "t_id": "271358075396",
+        "accnt_trace": "AT282017",
+        "merch_trace": "MT532737",
+        "category": "MEDICAL"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Restaurant",
+        "amount": 179.35,
+        "t_date": 1715797800,
+        "t_id": "120936451868",
+        "accnt_trace": "AT344673",
+        "merch_trace": "MT578355",
+        "category": "MEDICAL"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Pharmacy",
+        "amount": 3300.7,
+        "t_date": 1733337000,
+        "t_id": "981633675001",
+        "accnt_trace": "AT585595",
+        "merch_trace": "MT255538",
+        "category": "UTILITIES"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Restaurant",
+        "amount": 3728.42,
+        "t_date": 1715711400,
+        "t_id": "385283368317",
+        "accnt_trace": "AT697416",
+        "merch_trace": "MT174051",
+        "category": "BUSINESS"
+    }
+]

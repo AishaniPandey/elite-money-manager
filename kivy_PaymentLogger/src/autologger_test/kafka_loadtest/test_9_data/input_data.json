@@ -1,0 +1,92 @@
+[
+    {
+        "p_type": "Debit",
+        "label": "Electronics",
+        "amount": 1780.88,
+        "t_date": 1716834600,
+        "t_id": "276989166554",
+        "accnt_trace": "AT343941",
+        "merch_trace": "MT497110",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Electronics",
+        "amount": 3448.45,
+        "t_date": 1731090600,
+        "t_id": "522790467758",
+        "accnt_trace": "AT279383",
+        "merch_trace": "MT276224",
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Apparel",
+        "amount": 2500.86,
+        "t_date": 1723660200,
+        "t_id": "641424789054",
+        "accnt_trace": "AT712068",
+        "merch_trace": "MT411139",
+        "category": "UTILITIES"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Loan Payment",
+        "amount": 4260.6,
+        "t_date": 1732473000,
+        "t_id": "572094858324",
+        "accnt_trace": "AT422400",
+        "merch_trace": "MT802127",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Pharmacy",
+        "amount": 120.25,
+        "t_date": 1718217000,
+        "t_id": "642923217190",
+        "accnt_trace": "AT994320",
+        "merch_trace": "MT153962",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Supermarket",
+        "amount": 3848.03,
+        "t_date": 1715020200,
+        "t_id": "592539035557",
+        "accnt_trace": "AT381516",
+        "merch_trace": "MT145436",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Utility Bill",
+        "amount": 1741.53,
+        "t_date": 1712687400,
+        "t_id": "124912280890",
+        "accnt_trace": "AT996035",
+        "merch_trace": "MT266776",
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Supermarket",
+        "amount": 4814.08,
+        "t_date": 1713033000,
+        "t_id": "196620486836",
+        "accnt_trace": "AT993112",
+        "merch_trace": "MT533176",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Apparel",
+        "amount": 4156.96,
+        "t_date": 1734460200,
+        "t_id": "153915419952",
+        "accnt_trace": "AT649105",
+        "merch_trace": "MT896798",
+        "category": "MEDICAL"
+    }
+]

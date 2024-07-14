@@ -1,0 +1,22 @@
+[
+    {
+        "p_type": "Debit",
+        "label": "Pharmacy",
+        "amount": 759.17,
+        "t_date": 1706985000,
+        "t_id": "602553435026",
+        "accnt_trace": "AT553949",
+        "merch_trace": "MT570937",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Loan Payment",
+        "amount": 452.15,
+        "t_date": 1710009000,
+        "t_id": "897907951960",
+        "accnt_trace": "AT547235",
+        "merch_trace": "MT916662",
+        "category": "MEDICAL"
+    }
+]

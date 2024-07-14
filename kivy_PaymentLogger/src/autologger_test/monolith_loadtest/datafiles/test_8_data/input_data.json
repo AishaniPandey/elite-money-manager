@@ -1,0 +1,82 @@
+[
+    {
+        "p_type": "Debit",
+        "label": "Online Service",
+        "amount": 3260.49,
+        "t_date": 1711305000,
+        "t_id": "354443020665",
+        "accnt_trace": "AT573713",
+        "merch_trace": "MT278879",
+        "category": "MISC"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Utility Bill",
+        "amount": 1192.9,
+        "t_date": 1704306600,
+        "t_id": "198386853601",
+        "accnt_trace": "AT320257",
+        "merch_trace": "MT503182",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Utility Bill",
+        "amount": 4773.61,
+        "t_date": 1723919400,
+        "t_id": "660455797061",
+        "accnt_trace": "AT671594",
+        "merch_trace": "MT333862",
+        "category": "MISC"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Supermarket",
+        "amount": 4311.51,
+        "t_date": 1734633000,
+        "t_id": "822062736809",
+        "accnt_trace": "AT184116",
+        "merch_trace": "MT402710",
+        "category": "UTILITIES"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Online Service",
+        "amount": 2110.59,
+        "t_date": 1728498600,
+        "t_id": "150756193954",
+        "accnt_trace": "AT309568",
+        "merch_trace": "MT278533",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Apparel",
+        "amount": 1226.26,
+        "t_date": 1710700200,
+        "t_id": "460614139520",
+        "accnt_trace": "AT402248",
+        "merch_trace": "MT408183",
+        "category": "MEDICAL"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Utility Bill",
+        "amount": 87.02,
+        "t_date": 1722191400,
+        "t_id": "672955712485",
+        "accnt_trace": "AT827645",
+        "merch_trace": "MT450049",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Loan Payment",
+        "amount": 576.25,
+        "t_date": 1708799400,
+        "t_id": "125681136555",
+        "accnt_trace": "AT471722",
+        "merch_trace": "MT653738",
+        "category": "LOGISTICS"
+    }
+]

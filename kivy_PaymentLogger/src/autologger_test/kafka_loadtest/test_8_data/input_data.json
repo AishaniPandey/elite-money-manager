@@ -1,0 +1,82 @@
+[
+    {
+        "p_type": "Debit",
+        "label": "Online Service",
+        "amount": 4310.29,
+        "t_date": 1734028200,
+        "t_id": "541652332650",
+        "accnt_trace": "AT345895",
+        "merch_trace": "MT926753",
+        "category": "DEBTS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Restaurant",
+        "amount": 2484.53,
+        "t_date": 1714242600,
+        "t_id": "663969369157",
+        "accnt_trace": "AT669665",
+        "merch_trace": "MT574683",
+        "category": "UTILITIES"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Utility Bill",
+        "amount": 4486.76,
+        "t_date": 1727893800,
+        "t_id": "908079290204",
+        "accnt_trace": "AT651504",
+        "merch_trace": "MT235308",
+        "category": "TECH"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Apparel",
+        "amount": 1875.28,
+        "t_date": 1726338600,
+        "t_id": "598105144954",
+        "accnt_trace": "AT445073",
+        "merch_trace": "MT487003",
+        "category": "DEBTS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Supermarket",
+        "amount": 4926.66,
+        "t_date": 1716921000,
+        "t_id": "290942388707",
+        "accnt_trace": "AT638307",
+        "merch_trace": "MT797406",
+        "category": "MISC"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Utility Bill",
+        "amount": 605.21,
+        "t_date": 1712255400,
+        "t_id": "651647054583",
+        "accnt_trace": "AT272615",
+        "merch_trace": "MT291111",
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Apparel",
+        "amount": 862.46,
+        "t_date": 1713983400,
+        "t_id": "600605239911",
+        "accnt_trace": "AT934466",
+        "merch_trace": "MT311564",
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Supermarket",
+        "amount": 124.78,
+        "t_date": 1727807400,
+        "t_id": "492933516036",
+        "accnt_trace": "AT333506",
+        "merch_trace": "MT171841",
+        "category": "MEDICAL"
+    }
+]

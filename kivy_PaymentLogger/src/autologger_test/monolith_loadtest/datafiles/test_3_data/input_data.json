@@ -1,0 +1,32 @@
+[
+    {
+        "p_type": "Credit",
+        "label": "Loan Payment",
+        "amount": 3745.94,
+        "t_date": 1728239400,
+        "t_id": "106048860565",
+        "accnt_trace": "AT300585",
+        "merch_trace": "MT214655",
+        "category": "MISC"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Online Service",
+        "amount": 3302.66,
+        "t_date": 1722018600,
+        "t_id": "434743431473",
+        "accnt_trace": "AT341213",
+        "merch_trace": "MT648138",
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Online Service",
+        "amount": 859.98,
+        "t_date": 1709231400,
+        "t_id": "921155742998",
+        "accnt_trace": "AT745546",
+        "merch_trace": "MT101180",
+        "category": "DEBTS"
+    }
+]

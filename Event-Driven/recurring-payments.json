@@ -1,0 +1,182 @@
+[
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 500000,
+        "t_date": 1713798745,
+        "recurring_month_number": 11,
+        "reminder_days_in_advance": 5,
+        "category": "MISC"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 3000,
+        "t_date": 1713971545,
+        "recurring_month_number": 10,
+        "reminder_days_in_advance": 3,
+        "category": "MISC"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 1714489945,
+        "recurring_month_number": 7,
+        "reminder_days_in_advance": 1,
+        "category": "MISC"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 9000,
+        "t_date": 1714576345,
+        "recurring_month_number": 3,
+        "reminder_days_in_advance": 5,
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 1714662745,
+        "recurring_month_number": 4,
+        "reminder_days_in_advance": 3,
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 15000,
+        "t_date": 1714835545,
+        "recurring_month_number": 8,
+        "reminder_days_in_advance": 2,
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 1715008345,
+        "recurring_month_number": 4,
+        "reminder_days_in_advance": 1,
+        "category": "MEDICAL"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 21000,
+        "t_date": 1715094745,
+        "recurring_month_number": 2,
+        "reminder_days_in_advance": 4,
+        "category": "MEDICAL"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 	1715267545,
+        "recurring_month_number": 1,
+        "reminder_days_in_advance": 3,
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 27000,
+        "t_date": 1715353945,
+        "recurring_month_number": 6,
+        "reminder_days_in_advance": 2,
+        "category": "TECH"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 1715526745,
+        "recurring_month_number": 7,
+        "reminder_days_in_advance": 1,
+        "category": "TECH"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 33000,
+        "t_date": 1715613145,
+        "recurring_month_number": 0,
+        "reminder_days_in_advance": 5,
+        "category": "BUSINESS"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 1715785945,
+        "recurring_month_number": 8,
+        "reminder_days_in_advance": 3,
+        "category": "LOGISTICS"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 39000,
+        "t_date": 1715958745,
+        "recurring_month_number": 0,
+        "reminder_days_in_advance": 2,
+        "category": "LOGISTICS"        
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 1716217945,
+        "recurring_month_number": 10,
+        "reminder_days_in_advance": 1,
+        "category": "UTILITIES"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 45000,
+        "t_date": 1716304345,
+        "recurring_month_number": 1,
+        "reminder_days_in_advance": 5,
+        "category": "UTILITIES"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 5000,
+        "t_date": 1716390745,
+        "recurring_month_number": 9,
+        "reminder_days_in_advance": 3,
+        "category": "MEDICAL"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 51000,
+        "t_date": 1716477145,
+        "recurring_month_number": 2,
+        "reminder_days_in_advance": 2,
+        "category": "MISC"
+    },
+    {
+        "p_type": "Credit",
+        "label": "Salary",
+        "amount": 6000,
+        "t_date": 1716477145,
+        "recurring_month_number": 11,
+        "reminder_days_in_advance": 1,
+        "category": "FOOD"
+    },
+    {
+        "p_type": "Debit",
+        "label": "Expense",
+        "amount": 57000,
+        "t_date": 1716649945,
+        "recurring_month_number": 1,
+        "reminder_days_in_advance": 3,
+        "category": "FOOD"
+    }
+]
