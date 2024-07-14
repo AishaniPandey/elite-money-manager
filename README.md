@@ -25,8 +25,8 @@ To get started with the Personal Finance Tracker, follow these steps:
 
    ```
 4. **Configure Kafka:**
-   -Ensure Kafka and Zookeeper are running on your machine.
-   -Configure the necessary Kafka topics as mentioned in the setup documentation.
+   -**Ensure Kafka and Zookeeper are running on your machine.**
+   -**Configure the necessary Kafka topics as mentioned in the setup documentation.**
 6. **Run the application:**
    ```bash
    python main.py
